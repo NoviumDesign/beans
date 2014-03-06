@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Walter+Turncoat)
+
 header
   background-color: #057a43
   height: 185px
@@ -26,14 +28,15 @@ p
     right: 110px
     color: #FFFFFF
     font-size: 40px
-    font-family: DIN Pro, Helvetica, sans-serif
+    font-family: DIN Pro, Arial, sans-serif
     font-weight: 300
 
 
 body
   background-image: url("/images/bg.jpg")
-  background-repeat: no-repeat
+  background-repeat: repeat-y
   background-position: top center
+  font-family: Arial, sans-serif
 
 .main
   padding-top: 120px
@@ -108,3 +111,64 @@ footer
   background-color: #057a43
   height: 60px
   margin-top: 100px
+
+  // App 2 //
+
+.recipebox
+  width: 500px
+  background-color: #FFFFFF
+  position: relative
+  float: left
+  margin-left: 150px
+  padding: 20px
+  text-align: left
+  box-shadow: 1px 1px 30px black
+
+  button
+    position: absolute
+    right: 20px
+    bottom: 0px
+    padding: 10px
+    background-color: white
+    color: black
+    border: 1px solid lightgrey
+    font-family: 'Walter Turncoat', cursive
+
+  hr
+    width: 460px
+    position: absolute
+    bottom: 1px
+
+  section
+    margin: 20px
+    margin-bottom: 60px
+
+    li
+      font-size: 14px
+
+    h3
+      font-size: 22px
+      font-weight: 500
+
+.recipetape
+  background: url('/images/spritesheet.png') no-repeat -9px -11px
+  width: 93px
+  height: 38px
+  top: -25px
+  left: 213px
+  position: absolute
+  content: " "
+  z-index: 9999
+
+.recipename
+  width: 460px
+  height: 32px
+  background-color: rgb(255, 255, 255)
+  background-color: rgba(255, 255, 255, 0.6)
+  position: absolute
+  top: 157px
+
+  h2
+    font-family: 'Walter Turncoat', cursive
+    font-size: 14px
+    margin-left: 5px
